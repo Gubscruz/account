@@ -2,6 +2,7 @@ pipeline {
     agent any
     tools {
         maven "MavenJenkins"
+        jdk "JenkinsJDK"
     }
     stages {
         stage('Build') {
